@@ -10,7 +10,7 @@ export const FormularioCadastro = (props) => {
       <h2>Insira sua postagem abaixo: </h2>
       <Form>
         <StyledLabel >
-          Imagem:
+          Titulo:
           <Input  value={props.inputTitulo} onChange={props.onChangeTitulo}/>
         </StyledLabel>
         <StyledLabel htmlFor="foto">
